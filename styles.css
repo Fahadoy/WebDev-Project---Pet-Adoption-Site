@@ -1,0 +1,179 @@
+@font-face {
+    font-family: Quiet Meows;
+    src: url("fonts/Quiet\ Meows.ttf");
+}
+
+@font-face {
+    font-family: Animal;
+    src: url("fonts/Animal\ House.otf");
+}
+
+@font-face {
+    font-family: Stardew;
+    src: url("fonts/stardew-valley.ttf");
+}
+
+body{
+    background-color:#FDF6EC;
+    margin: 0;
+    padding: 0;
+    font-family: fontname;
+}
+
+.navbar{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #A7795E;
+    text-align: left;
+    width: 100%;
+    font-family: Animal;
+    display: flex;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0px;
+}
+
+.navbar a{
+    display: block;
+    height: 100%;
+    line-height: 12px;
+    text-decoration: none;
+    color: #FDF6EC;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 14px 20px;
+    transition: background-color 0.2s ease;
+}
+
+.navbar a:hover{
+    background-color: #8A9A5B;
+    color: #FDF6EC;
+    
+}
+
+.navname{
+    color: #FDF6EC;
+    font-size: 30px;
+    font-family: Quiet Meows;
+    letter-spacing: 5px;
+    padding: 0px 225px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: #8A9A5B;
+    font-family: Stardew;
+    letter-spacing: 2px;
+    font-size: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section .image img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.site-footer{
+    background-color: #A7795E;
+    list-style: none; 
+    display: flex;
+    font-family: Animal;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.site-footer h3{
+    color: #FDF6EC;
+    margin: 10px 0;
+}
+
+.site-footer h4{
+    color: #FDF6EC;
+    margin: 10px 0;
+}
+
+.site-footer li{
+    display: inline;
+    color: #FDF6EC;
+    margin: 5px;
+}
+
+.site-footer p{
+    color: #FDF6EC;
+    margin: 10px;
+}
+
+.section2 {
+    color: #8A9A5B;
+    font-family: Stardew;
+    letter-spacing: 2px;
+    text-align: left;
+    padding: 50px;
+    font-size: 25px;
+    max-width: 1200px;
+}
+
+.section2 .image img{
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.section3{
+    color: #8A9A5B;
+    font-family: Stardew;
+    letter-spacing: 2px;
+    padding: 20px 60px;
+    font-size: 25px;
+}
+
+.section3 .contact-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.section3 .contact-form label,input,textarea{
+    padding: 20px 0px;
+}
+
+.section3 .contact-form input{
+    max-height: 0.1px;
+}
+
+.gallery-section{
+    color: #8A9A5B;
+    font-family: Stardew;
+    letter-spacing: 2px;
+    padding: 20px 60px;
+    font-size: 25px;
+}
+
+.gallery-section .gallery-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.gallery-section .gallery-images img{
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-section .gallery-images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
