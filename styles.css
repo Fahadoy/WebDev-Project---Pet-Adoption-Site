@@ -176,4 +176,27 @@ body{
 .gallery-section .gallery-images img:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.group-desc{
+    list-style: none; 
+    display: inline-block;
+    font-family: Stardew;
+    font-size: 27px;
+    color: #8A9A5B;
+    letter-spacing: 2px;
+    margin: 10;
+    padding: 0px 10px;
+    text-align: left; 
+}
+
+.group-desc h2,h3{
+    color: #A7795E;
+    font-size: 27px;
+}
+
+.group-desc h4{
+    color: #A7795E;
+    font-size: 18px;
 }
