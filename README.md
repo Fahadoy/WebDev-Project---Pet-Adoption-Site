@@ -12,4 +12,4 @@ View the website [here](https://fahadoy.github.io/WebDev-Project---Pet-Adoption-
 - Contact form (non-functional)
 
 ## Author:
-Fahad
+Oyawoye Fahad
