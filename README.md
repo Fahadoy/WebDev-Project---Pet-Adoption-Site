@@ -2,7 +2,7 @@
 This is a simple multi-page pet adoption website built with HTML and CSS.
 
 ## Live Site:
-View the website [here](https://fahadoy.github.io/WebDev-Project---Pet-Adoption-Site/index.html)
+View the website [here](https://fahadoy.github.io/WebDev-Project---Pet-Adoption-Site/)
 
 ## Features:
 - Responsive navigation bar
